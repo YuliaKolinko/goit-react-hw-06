@@ -1,15 +1,16 @@
 .conteiner {
   display: flex;
+  background-color: #f1e9da;
 
   gap: 12px;
   width: 320px;
-  border: 1px solid #2c2c2c;
+  border: 2px solid #ffd400;
   border-radius: 20px;
   padding: 15px;
   align-items: center;
   margin-bottom: 20px;
   align-content: space-between;
-
+  color: #541388;
   justify-content: space-between;
 }
 .info {
@@ -20,6 +21,9 @@
 }
 .button {
   padding: 6px 12px;
+  background-color: #ffd400;
+  color: #541388;
+  border-color: #2e294e;
 }
 .icon_box {
   display: flex;

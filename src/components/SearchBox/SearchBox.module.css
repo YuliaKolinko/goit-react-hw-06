@@ -9,10 +9,13 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  background-color: #f1e9da;
+  color: #541388;
 }
 .label {
   align-self: flex-start;
 }
 .input {
   width: 100%;
+  stroke: #541388;
 }

@@ -14,11 +14,11 @@ export default function Contact({ contact }) {
     <div className={css.conteiner}>
       <div className={css.info}>
         <div className={css.icon_box}>
-          <FaUser />
+          <FaUser className={css.icon} />
           <p className={css.name}>{contact.name}</p>
         </div>
         <div className={css.icon_box}>
-          <FaPhoneAlt />
+          <FaPhoneAlt className={css.icon} />
           <p className={css.number}>{contact.number}</p>
         </div>
       </div>
